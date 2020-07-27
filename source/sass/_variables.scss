@@ -1,0 +1,49 @@
+//body
+$font-family-base: 'Open Sans', Arial, 'Helvetica Neue', sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.7;
+$font-weight-base: 400;
+$font-style-base: normal;
+$color-base: #000;
+$background-color-base: #fff;
+$text-align-base: left;
+
+// images path
+$img-path: '../img/';
+
+//retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+// viewports
+// $xs: 0;
+// $sm: 540px;
+// $md: 720px;
+// $md: 660px;
+// $lg: 960px;
+// $xl: 1140px;
+// $xl: 1200px;
+
+// bootstrap 4 viewports
+$xs: 0;
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1140px;
+
+// https://www.w3counter.com/globalstats.php
+// Top 10 Screen Resolutions
+// 1	640x360	15.59%
+// 2	1366x768	10.74%
+// 3	1920x1080	6.05%
+// 4	760x360	5.35%
+// 5	1024x768	4.93%
+// 6	780x360	3.79%
+// 7	667x375	3.63%
+// 8	720x360	3.54%
+// 9	1536x864	2.56%
+// 10	896x414	2.37%
+
+//blocks
+//page-header
+// $page-header--...: ;

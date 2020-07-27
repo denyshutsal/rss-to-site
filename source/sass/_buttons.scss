@@ -1,0 +1,64 @@
+/* ==========================================================================
+buttons
+========================================================================== */
+
+.btn {
+  display: inline-block;
+  padding: 13px 24px 13px;
+  border: 3px solid #fff;
+  margin: 0;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  // letter-spacing: 1px;
+  // box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  /* stylelint-disable */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  /* stylelint-enable */
+
+  &:focus,
+  &:hover {
+    background: #fff;
+    box-shadow: 0 5px 7px 0 rgba(1, 1, 1, 0.75);
+    color: #d22856;
+  }
+
+  &:active {
+    // transform: scale(0.97);
+    box-shadow: none;
+    color: #f2ced5;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    box-shadow: none;
+    opacity: 0.65;
+    pointer-events: none;
+  }
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+  &--rounded {
+    border-radius: 25px;
+  }
+
+  &--block {
+    display: block;
+    width: 100%;
+  }
+}
