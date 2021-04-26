@@ -1,6 +1,8 @@
-# Проект «rss-to-site»
+# «RSS-Grid»
 
 [Демо проекта](https://denyshutsal.github.io/rss-to-site/)
+
+Простая реализация новостного сайта, на css grid.
 
 ---
 
